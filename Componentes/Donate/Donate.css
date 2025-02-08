@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4e2c1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.form {
+    width: 60%;
+    margin: 20px auto;
+    background: #FFF5EE;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* gap: 15%; */
+}
+/* .header span{
+    text-align: center;
+    align-items: center;
+} */
+
+.logo {
+    width: 100px;
+}
+
+h1 {
+    font-size: 22px;
+    color: #708090;
+}
+
+h3,h2 {
+    font-size: 16px;
+    color: #696969;
+}
+
+.sevak-id-section {
+    background: #5a77a8;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.sevak-id-section input {
+    padding: 8px;
+    width: 60%;
+    border: none;
+    border-radius: 4px;
+}
+
+.sevak-id-section button {
+    padding: 8px 15px;
+    border: none;
+    background: #FFF5EE;
+    color: black;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.donation-section {
+    background: #5a77a8;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+}
+
+.donation-section h2 {
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #d5d8dc;
+    border-radius: 5px;
+}
+
+form input, form select {
+    margin: 8px 0;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #DCDCDC;
+    border-radius: 4px;
+}
+
+.note {
+    color: red;
+    font-size: 14px;
+}
+
+.donation-section label{
+    color: black;
+    padding-top: 9px;
+}
+
+.pay-btn {
+    background: #5a77a8;
+    color: white;
+    padding: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}

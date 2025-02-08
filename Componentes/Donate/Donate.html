@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donate & Support</title>
+    <link rel="stylesheet" href="/Componentes/Donate/Donate.css">
+    <link rel="stylesheet" href="/Home.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="/index.html" class="underline">
+                <div class="nav-left">
+                    <img src="/Assets/iskcon_logo.png" alt="ISKCON Logo">
+                    <span class="mayapur-text">DURGAPUR</span>
+                </div>
+            </a>
+            
+            <ul class="nav-menu">
+                <li><a href="/index.html" target="_self">Home</a></li>
+                <li><a href="/Componentes/About_Us/about.html" target="_self">About Us</a></li>
+                <li class="dropdown">
+                    <a href="#">Bhog Booking ⌵</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Offer Bhog</a></li>
+                        <li><a href="#">Payment Options</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Events & Festivals ⌵</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Upcoming Events</a></li>
+                        <li><a href="/Componentes/Gallery/gallery.html">Gallery</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Darshan & Timings ⌵</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="/Componentes/Arati_Timeing/arati_time.html">Aarti Schedule</a></li>
+                        <li><a href="/Componentes/Arati_Timeing/arati_time.html">Darshan Timings</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Donate & Support</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="form">
+        <div class="header">
+            <img src="/Assets/iskcon_logo.png" alt="ISKCON Logo" class="logo">
+            <span>
+                <h1>International Society for Krishna Consciousness</h1>
+                <h3>Sri Sri Radha Madan Mohan Mandir, Durgapur</h3>
+            </span>
+            <img src="/Assets/iskcon_logo.png" alt="ISKCON Logo" class="logo">
+        </div>
+
+        <div class="sevak-id-section">
+            <label for="sevakId">Nitya Sevak ID:</label>
+            <input type="text" id="sevakId" placeholder="Sevak ID">
+            <button>Proceed</button>
+        </div>
+
+        <div class="donation-section">
+            <form action="#" method="POST">
+                <h2>Donate (Without Sevak ID)</h2>
+                <hr>
+                <input type="text" placeholder="Name" required>
+                <input type="text" placeholder="Address" required>
+                <input type="text" placeholder="City" required>
+                <input type="tel" placeholder="Mobile No" required>
+                <input type="email" placeholder="Email ID" required>
+                <input type="text" placeholder="PAN CARD No" required>
+                <input type="text" placeholder="Purpose" required>
+                <input type="number" placeholder="Amount" required>
+                <p class="note">2% Gateway Fee will be applicable.</p>
+                
+                <label for="paymentMode">Payment Mode:</label>
+                <select id="paymentMode">
+                    <option value="netbanking">Net Banking</option>
+                    <option value="creditcard">Credit Card</option>
+                    <option value="debitcard">Debit Card</option>
+                    <option value="upi">UPI</option>
+                </select>
+
+                <button type="submit" class="pay-btn">Pay</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 ISKCON Durgapur | All Rights Reserved</p>
+    </footer>
+</body>
+</html>
